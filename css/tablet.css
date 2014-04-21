@@ -1,0 +1,105 @@
+/*MediaStudio Tablet CSS Stylesheet*/
+/*Created By Shane Walsh 2012/
+/*Copyright 2012 MediaStudio, Only Josef is allowed to rob this code.*/
+
+
+@media screen and (max-width: 1024px){
+
+body {
+	font-size: 98%;	
+}
+#wrapper {
+	width: 98%;
+}
+#wrapper header nav {
+	float: right;
+	clear: left;
+	width: 100%;
+}
+#wrapper header nav ul li {
+	padding-left:0px;
+	padding-right: 20px;
+}
+#wrapper #slideshow {
+	display: none;
+}
+#wrapper #hiddenbanner {
+	display: inline;
+	width: 100%;
+}
+#wrapper #hiddenbanner img {
+	max-width:100%;
+	height:auto;
+}
+#wrapper #content #left_content {
+	width: 60%;
+	margin: 5px;
+	text-align:left;
+}
+#wrapper #content #right_content {
+	float: none;
+	width: 30%;
+	margin: 0px;
+	padding-left:5px;
+	padding-right:5px;
+	text-align:left;
+}
+#wrapper #content #right_content img {
+	max-width:100%;
+	height:auto;
+}
+#wrapper footer .footerbox {
+	float: left;
+	width: 250px;;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+#wrapper footer .footerbox img {
+	max-width:100%;
+}
+#pack_img img {
+	max-width:100%;
+	height:auto;
+}
+}
+
+@media screen and (max-width: 768px){
+	
+
+#wrapper #content #left_content {
+	float: none;
+	width: 97%;
+	margin: 5px;
+}
+#wrapper #content #right_content {
+	float: none;
+	width: 97%;
+	margin: 0px;
+	padding-left:5px;
+	padding-right:5px;
+}
+#wrapper footer #copyright {
+	padding-left:0px;
+	font-size:11px;
+}
+#wrapper footer #copyright ul li {
+	float:none;
+}
+#wrapper footer #social {
+	float:left;
+	clear:left;
+	padding-left:5px;
+}
+#wrapper #content #left_content #client_slider {
+	display:none;
+}
+#wrapper footer .footerbox {
+	float: left;
+	width: 100%;;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+}
